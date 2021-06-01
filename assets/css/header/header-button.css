@@ -1,0 +1,30 @@
+.header__button {
+    margin-top: auto;
+}
+
+.header__button button {
+    border-radius: 1.8rem;
+    border-style: none;
+    color: white;
+    font-weight: bold;
+    padding: 0.8rem 2rem;
+    margin-left: 0.8rem;
+}
+
+.header__button:nth-child(1) {
+    background-color: rgb(1, 180, 165);
+    box-shadow: 0rem 0.2rem rgb(1, 143, 131);
+}
+
+.header__button:hover:nth-child(1) {
+    background-color: rgb(2, 172, 157);
+}
+
+.header__button:nth-child(2) {
+    background-color: rgb(101, 103, 255);
+    box-shadow: 0rem 0.2rem rgb(61, 64, 255);
+}
+
+.header__button:hover:nth-child(2) {
+    background-color: rgb(90, 92, 253);
+}

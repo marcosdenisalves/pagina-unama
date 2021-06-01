@@ -1,0 +1,9 @@
+.header {
+    align-items: center;
+    background: url('../../images/bg-header-desktop.png') center / cover no-repeat;
+    display: flex;
+    flex-flow: column;
+    height: 20rem;
+    justify-content: center;
+    padding: 5rem;
+}
