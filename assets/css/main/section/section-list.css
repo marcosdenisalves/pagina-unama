@@ -1,0 +1,16 @@
+.section__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 9rem;
+    list-style: none;
+    width: 22rem;
+}
+
+.section__list___children {
+    margin-bottom: 2rem;
+}
+
+.section__list___children p {
+    line-height: 1.8rem;
+}

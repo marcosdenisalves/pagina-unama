@@ -1,0 +1,16 @@
+.article {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  text-align: center;
+  width: 38rem;
+}
+
+.article h2 {
+  font-size: 1.8rem;
+}
+
+.article p {
+  width: 38rem;
+}
