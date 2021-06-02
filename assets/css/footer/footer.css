@@ -1,0 +1,39 @@
+.footer {
+    align-items: center;
+    background-color: rgba(220, 220, 220, 0.239);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 15vh;
+    width: 100vw;
+    margin-top: 8rem;
+    padding-top: 2rem;
+}
+
+.footer__list {
+    display: flex;
+    flex-flow: column wrap;
+    list-style: none;
+    height: 7rem;
+    width: 30rem;
+}
+
+.footer__item p {
+    color: rgba(0, 0, 0, 0.459);
+    font-weight: 700;
+}
+
+.footer__logo {
+    height: 4rem;
+}
+
+.footer__icone___container {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 10rem;
+}
+
+.footer__icone {
+    height: 1.6rem;
+}

@@ -15,12 +15,17 @@
     <link href="./assets/css/header/header.css" rel="stylesheet" />
     <link href="./assets/css/header/header-logo.css" rel="stylesheet" />
     <link href="./assets/css/header/header-container.css" rel="stylesheet" />
-    <link href="./assets/css/header/header-button.css" rel="stylesheet" />
+    <link href="./assets/css/button.css" rel="stylesheet" />
     <link href="./assets/css/main/main.css" rel="stylesheet" />
     <link href="./assets/css/main/article/article.css" rel="stylesheet" />
     <link href="./assets/css/main/article/article-img.css" rel="stylesheet" />
     <link href="./assets/css/main/section/section.css" rel="stylesheet" />
     <link href="./assets/css/main/section/section-list.css" rel="stylesheet" />
+    <link
+      href="./assets/css/main/section/section-list-social.css"
+      rel="stylesheet"
+    />
+    <link href="./assets/css/footer/footer.css" rel="stylesheet" />
   </head>
   <body class="app">
     <header class="header">
@@ -32,9 +37,9 @@
           Instantly access your clipboard on all your devices.
         </p>
       </div>
-      <div class="header__button">
-        <button class="header__button">Download for iOS</button>
-        <button class="header__button">Download for Mac</button>
+      <div class="button">
+        <button class="button">Download for iOS</button>
+        <button class="button">Download for Mac</button>
       </div>
     </header>
     <main class="main">
@@ -93,7 +98,11 @@
         <ul class="section__list">
           <li>
             <div class="content">
-              <img class="icon" src="./assets/images/icon-blacklist.svg" alt="" />
+              <img
+                class="icon"
+                src="./assets/images/icon-blacklist.svg"
+                alt="ícone lista"
+              />
               <h3>Create blacklists</h3>
               <p>
                 Ensure sensitive information never makes its way to your
@@ -103,7 +112,11 @@
           </li>
           <li>
             <div class="content">
-              <img class="icon" src="./assets/images/icon-text.svg" alt="" />
+              <img
+                class="icon"
+                src="./assets/images/icon-text.svg"
+                alt="´icone plain"
+              />
               <h3>Plain text snippets</h3>
               <p>
                 Remove unwanted formatting from copied text for a consistent
@@ -113,7 +126,11 @@
           </li>
           <li>
             <div class="content">
-              <img class="icon" src="./assets/images/icon-preview.svg" alt="" />
+              <img
+                class="icon"
+                src="./assets/images/icon-preview.svg"
+                alt="ícone preview"
+              />
               <h3>Sneak preview</h3>
               <p>
                 Quick preview of all snippets on your Clipboard for easy access.
@@ -122,6 +139,59 @@
           </li>
         </ul>
       </section>
+      <section>
+        <ul class="section__list___social">
+          <li>
+            <img src="./assets/images/logo-google.png" alt="logo google" />
+          </li>
+          <li><img src="./assets/images/logo-ibm.png" alt="logo ibm" /></li>
+          <li>
+            <img
+              src="./assets/images/logo-microsoft.png"
+              alt="logo microsoft"
+            />
+          </li>
+          <li><img src="./assets/images/logo-hp.png" alt="logo hp" /></li>
+          <li>
+            <img
+              src="./assets/images/logo-vector-graphics.png"
+              alt="logo vector"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="article">
+        <h2>Clipboard for iOS and Mac OS</h2>
+        <p>
+          Available for free on the App Store. Download for Mac or iOS, sync
+          with iCloud and you’re ready to start adding to your clipboard.
+        </p>
+        <div class="button">
+          <button class="button">Download for iOS</button>
+          <button class="button">Download for Mac</button>
+        </div>
+      </section>
     </main>
+    <footer class="footer">
+      <img class="footer__logo" src="./assets/images/logo.svg" alt="logo svg" />
+      <ul class="footer__list">
+        <li class="footer__item"><p>FAQs</p></li>
+        <li class="footer__item"><p>Contact Us</p></li>
+        <li class="footer__item"><p>Privacy Policy</p></li>
+        <li class="footer__item"><p>Press Kit</p></li>
+        <li class="footer__item"><p>Install Guide</p></li>
+      </ul>
+      <ul class="footer__icone___container">
+        <li class="footer__icone___item">
+          <img class="footer__icone" src="./assets/images/icon-facebook.svg" alt="logo facebook" />
+        </li>
+        <li class="footer__icone___item">
+          <img class="footer__icone" src="./assets/images/icon-twitter.svg" alt="logo twitter" />
+        </li>
+        <li class="footer__icone___item">
+          <img class="footer__icone" src="./assets/images/icon-instagram.svg" alt="logo instagram" />
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>

@@ -1,0 +1,8 @@
+.section__list___social {
+    align-items: baseline;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 6rem 0;
+    width: 90vw;
+}

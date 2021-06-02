@@ -1,8 +1,8 @@
-.header__button {
-    margin-top: auto;
+.button {
+    margin-top: 1rem;
 }
 
-.header__button button {
+.button button {
     border-radius: 1.8rem;
     border-style: none;
     color: white;
@@ -11,20 +11,20 @@
     margin-left: 0.8rem;
 }
 
-.header__button:nth-child(1) {
+.button:nth-child(1) {
     background-color: rgb(1, 180, 165);
     box-shadow: 0rem 0.2rem rgb(1, 143, 131);
 }
 
-.header__button:hover:nth-child(1) {
+.button:hover:nth-child(1) {
     background-color: rgb(2, 172, 157);
 }
 
-.header__button:nth-child(2) {
+.button:nth-child(2) {
     background-color: rgb(101, 103, 255);
     box-shadow: 0rem 0.2rem rgb(61, 64, 255);
 }
 
-.header__button:hover:nth-child(2) {
+.button:hover:nth-child(2) {
     background-color: rgb(90, 92, 253);
 }
